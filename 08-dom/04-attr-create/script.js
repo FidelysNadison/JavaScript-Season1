@@ -4,5 +4,7 @@
 (() => {
 
     // your code here
+    document.getElementsByClassName('explain');
+    
 
 })();

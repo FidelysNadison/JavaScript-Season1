@@ -4,5 +4,11 @@
 (() => {
 
     // your code here
+    let targetItem = document.querySelectorAll('.target');
+
+    targetItem.forEach(function(t) {
+        t.innerHTML = 'owned';
+    });
+
 
 })();

@@ -3,5 +3,6 @@
 (() => {
 
     // your code here
-
+    var nouveau = "owned";
+    document.getElementById('target').innerHTML = nouveau;
 })();
