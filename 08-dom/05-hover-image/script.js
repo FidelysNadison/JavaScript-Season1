@@ -4,5 +4,13 @@
 (() => {
 
     // your code here
+    let img = document.querySelector('img');
+    img.addEventListener('mouseover', () =>{
+        img.setAttribute('src', '../../_shared/img/kiss-wink-heart.svg')
+    })
+
+    img.addEventListener('mouseleave', () =>{
+        img.setAttribute('src', '../../_shared/img/kiss.svg')
+    })
 
 })();

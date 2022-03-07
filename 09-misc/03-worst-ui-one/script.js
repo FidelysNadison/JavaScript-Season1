@@ -4,5 +4,12 @@
 (() => {
 
     // your code here
+    let number = document.getElementById('slider');
+
+    number.addEventListener('change', () =>{
+        let slide = '0' + number.value
+        
+        document.getElementById('target').innerHTML = slide
+    })
 
 })();

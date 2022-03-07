@@ -12,5 +12,16 @@
     ];
 
     // your code here
+    let i = 1;
+    
+    document.getElementById('next').addEventListener('click', () =>{
+        let img = document.querySelector('img');
+        img.setAttribute('src', gallery[i]);
+        i++;
+        if (i > 5){
+            i = 0
+        }
+
+    })
 
 })();

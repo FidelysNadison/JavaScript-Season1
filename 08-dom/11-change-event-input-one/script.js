@@ -4,5 +4,14 @@
 (() => {
 
     // your code here
+    document.getElementById('pass-one').addEventListener('keyup', () =>{
+
+        let passwordOne = document.getElementById('pass-one');
+        passwordOne.setAttribute('maxlength', '10');
+    
+        let char = passwordOne.value.length + '/10';
+        document.getElementById('counter').innerHTML = char;
+    })
+
 
 })();

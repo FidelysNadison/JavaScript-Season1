@@ -4,7 +4,10 @@
 (() => {
 
     // your code here
-    document.getElementsByClassName('explain');
-    
+    let elements = elements.getAttribute(data-image);
+    var img = document.createElement("img");
+    img.src = "https://www.pngitem.com/pimgs/m/47-470925_img-hd-png.png";
+
+
 
 })();
